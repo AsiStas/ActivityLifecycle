@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         textView = findViewById(R.id.textView);
         Log.d("Lifecycle method: ", "onCreate()");
         textView.append("onCreate()" + "\n");
